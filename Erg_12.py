@@ -24,4 +24,8 @@ for z in range(N):
     Ascii_rev_character.append(chr(Ascii_rev_code[z]))
 #Μετατρεπω τους κωδικους σε χαρακτηρες και τα στελνω στην τριτη λιστα
 
-print (Ascii_rev_character)
+abc=""
+for c in range(N):
+    abc=abc+Ascii_rev_character[c]
+    
+print (abc)
